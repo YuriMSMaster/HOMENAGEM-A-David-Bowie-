@@ -1,0 +1,18 @@
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: hsl(0, 0%, 100%);
+    animation: twinkling 1.5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes twinkling {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0.3;
+    }
+  }
+  
